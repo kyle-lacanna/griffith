@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  max-height: 100vh;
 }
 
 .App-logo {
@@ -17,6 +16,7 @@
 .App-header {
   
   min-height: 100vh;
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,7 +61,7 @@ body {
 
 #logo {
   font-family:Aeros;
-  font-size: 3.5em;
+  font-size: 3em;
 }
 
 @font-face {
@@ -71,6 +71,61 @@ body {
   font-weight: normal;
 }
 
-h1 {
+.bar-button {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.bar-div {
   
+  padding:10px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+#bar {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h4 {
+  margin: 0px;
+}
+
+#page-button-cluster {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+#show-list {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 1000px;
+  padding-top: 200px;
+}
+
+#show-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  border-bottom: white 1px solid;
+}
+
+h3 {
+  color: white;
+  width: 200px;
+}
+
+#main-content {
+  margin-top: 50px;
 }

@@ -1,13 +1,14 @@
-//import { Nav } from "./Nav.js";
-//import { Socials } from "./Socials";
+import { Nav } from "./Nav.js";
+import { Socials } from "./Socials";
 
 export function Bar (props)
 {
     return (
-        <>
-            <div id="nav-bar">
-            </div>
-        </>
+        <div id="bar">
+            <Nav />
+            <Socials />
+        </div>
+           
     );
     
     
