@@ -92,6 +92,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 100%;
 }
 
 h4 {
@@ -124,8 +125,25 @@ h4 {
 h3 {
   color: white;
   width: 200px;
+  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Smooch Sans', sans-serif;
+  font-size: 1.3rem;
 }
 
 #main-content {
   margin-top: 50px;
+}
+
+#socials-div {
+  padding: 20px;
+}
+
+a {
+  
+}
+
+.social-a {
+  margin-left: 10px;
+  margin-right: 10px;
 }

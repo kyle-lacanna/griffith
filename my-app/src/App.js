@@ -35,7 +35,7 @@ function App() {
 export default App;
 
 /*
-
+scp -r ./build/* kylelacanna@DigO:griffith
 
 
 
